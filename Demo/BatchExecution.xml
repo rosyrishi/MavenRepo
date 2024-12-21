@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.CreateOrganizationTest"/>
+      <class name="TestNG.campaignWithProductTest"/>
+      <class name="TestNG.CreateProductTest"/>
+      <class name="TestNG.CreateContactsTest"/>
+      <class name="TestNG.CreateLeadsTest"/>
+      <class name="TestNG.CreateCampaignTest"/>
+      <class name="TestNG.CreateOrganizationWithindustryTest"/>
+      <class name="TestNG.DeleteCreatedProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

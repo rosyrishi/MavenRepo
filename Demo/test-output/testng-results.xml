@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-20T11:37:24 IST" name="Default suite" finished-at="2024-12-20T11:38:16 IST" duration-ms="52159">
+    <groups>
+    </groups>
+    <test started-at="2024-12-20T11:37:24 IST" name="Default test" finished-at="2024-12-20T11:38:16 IST" duration-ms="52159">
+      <class name="TestNG.campaignWithProductTest">
+        <test-method is-config="true" signature="bs()[pri:0, instance:TestNG.campaignWithProductTest@73e9cf30]" started-at="2024-12-20T11:37:24 IST" name="bs" finished-at="2024-12-20T11:37:24 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:TestNG.campaignWithProductTest@73e9cf30]" started-at="2024-12-20T11:37:24 IST" name="bt" finished-at="2024-12-20T11:37:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc()[pri:0, instance:TestNG.campaignWithProductTest@73e9cf30]" started-at="2024-12-20T11:37:24 IST" name="bc" finished-at="2024-12-20T11:37:29 IST" duration-ms="4366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:TestNG.campaignWithProductTest@73e9cf30]" started-at="2024-12-20T11:37:29 IST" name="bm" finished-at="2024-12-20T11:37:35 IST" duration-ms="6077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="campaignWithProductTest1()[pri:0, instance:TestNG.campaignWithProductTest@73e9cf30]" started-at="2024-12-20T11:37:35 IST" name="campaignWithProductTest1" finished-at="2024-12-20T11:38:14 IST" duration-ms="38997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- campaignWithProductTest1 -->
+        <test-method is-config="true" signature="am()[pri:0, instance:TestNG.campaignWithProductTest@73e9cf30]" started-at="2024-12-20T11:38:14 IST" name="am" finished-at="2024-12-20T11:38:16 IST" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:TestNG.campaignWithProductTest@73e9cf30]" started-at="2024-12-20T11:38:16 IST" name="ac" finished-at="2024-12-20T11:38:16 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:TestNG.campaignWithProductTest@73e9cf30]" started-at="2024-12-20T11:38:16 IST" name="at" finished-at="2024-12-20T11:38:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="as()[pri:0, instance:TestNG.campaignWithProductTest@73e9cf30]" started-at="2024-12-20T11:38:17 IST" name="as" finished-at="2024-12-20T11:38:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- TestNG.campaignWithProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
