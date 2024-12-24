@@ -30,15 +30,38 @@ public class BaseClass {
 	public void bt() {
 		System.out.println("parallel execution");
 	}
+	//use for without parameter
 
-	@Parameters("BROWSER")
+//	@Parameters("BROWSER")
+//	@BeforeClass(groups = {"smoke","Regression","sanity"})
+//	public void bc() throws Throwable {
+//		File_Utility flib = new File_Utility();
+//		String BROWSER = flib.getKeyAndValuePair("Browser");
+//
+////	public void bc(String BROWSER ) throws Throwable
+//	{
+//		if (BROWSER.equalsIgnoreCase("chrome")) {
+//			driver = new ChromeDriver();
+//		} else if (BROWSER.equalsIgnoreCase("firefox")) {
+//			driver = new FirefoxDriver();
+//		} else if (BROWSER.equalsIgnoreCase("edge")) {
+//			driver = new EdgeDriver();
+//		} else {
+//			driver = new ChromeDriver();
+//		}
+//		System.out.println("launching browser");
+//		sdriver=driver;
+//	}
+//	}
+//====================================================================
+	
+	// use for jenkin parameter
+	
 	@BeforeClass(groups = {"smoke","Regression","sanity"})
 	public void bc() throws Throwable {
-		File_Utility flib = new File_Utility();
-		String BROWSER = flib.getKeyAndValuePair("Browser");
-
-//	public void bc(String BROWSER ) throws Throwable
-	{
+		//reading from cmd/Jenkins
+		String BROWSER = System.getProperty("browser");
+	
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 		} else if (BROWSER.equalsIgnoreCase("firefox")) {
@@ -51,8 +74,6 @@ public class BaseClass {
 		System.out.println("launching browser");
 		sdriver=driver;
 	}
-	}
-
 											 
 	@BeforeMethod
 	public void bm() throws Throwable {
