@@ -74,15 +74,36 @@ public class BaseClass {
 		System.out.println("launching browser");
 		sdriver=driver;
 	}
-											 
+//	//use for without parameter									 
+//	@BeforeMethod
+//	public void bm() throws Throwable {
+//		System.out.println("login to application");
+//		File_Utility flib = new File_Utility();
+//		String URL = flib.getKeyAndValuePair("url");
+//		String USERNAME = flib.getKeyAndValuePair("username");
+//		String PASSWORD = flib.getKeyAndValuePair("password");
+//		
+//																				
+//		driver.get(URL);
+//
+//		// using business logics
+//		LoginVtigerPage login = new LoginVtigerPage(driver);
+//		login.loginIntoVtiger(USERNAME, PASSWORD);
+//
+//		WebDriver_Utility wlib = new WebDriver_Utility();
+//		wlib.maximizeWindow(driver);
+//		wlib.implicitlyWait(driver);
+//	}
+	//=================================================================
+	// use for jenkin parameter
 	@BeforeMethod
 	public void bm() throws Throwable {
 		System.out.println("login to application");
-		File_Utility flib = new File_Utility();
-		String URL = flib.getKeyAndValuePair("url");
-		String USERNAME = flib.getKeyAndValuePair("username");
-		String PASSWORD = flib.getKeyAndValuePair("password");
-		
+
+
+		String URL = System.getProperty("url");
+		String USERNAME = System.getProperty("username");
+		String PASSWORD = System.getProperty("password");
 																				
 		driver.get(URL);
 
