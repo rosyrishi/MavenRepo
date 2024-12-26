@@ -30,30 +30,7 @@ public class BaseClass {
 	public void bt() {
 		System.out.println("parallel execution");
 	}
-	//use for without parameter
-
-//	@Parameters("BROWSER")
-//	@BeforeClass(groups = {"smoke","Regression","sanity"})
-//	public void bc() throws Throwable {
-//		File_Utility flib = new File_Utility();
-//		String BROWSER = flib.getKeyAndValuePair("Browser");
-//
-////	public void bc(String BROWSER ) throws Throwable
-//	{
-//		if (BROWSER.equalsIgnoreCase("chrome")) {
-//			driver = new ChromeDriver();
-//		} else if (BROWSER.equalsIgnoreCase("firefox")) {
-//			driver = new FirefoxDriver();
-//		} else if (BROWSER.equalsIgnoreCase("edge")) {
-//			driver = new EdgeDriver();
-//		} else {
-//			driver = new ChromeDriver();
-//		}
-//		System.out.println("launching browser");
-//		sdriver=driver;
-//	}
-//	}
-//====================================================================
+	
 	
 	// use for jenkin parameter
 	
@@ -74,27 +51,7 @@ public class BaseClass {
 		System.out.println("launching browser");
 		sdriver=driver;
 	}
-//	//use for without parameter									 
-//	@BeforeMethod
-//	public void bm() throws Throwable {
-//		System.out.println("login to application");
-//		File_Utility flib = new File_Utility();
-//		String URL = flib.getKeyAndValuePair("url");
-//		String USERNAME = flib.getKeyAndValuePair("username");
-//		String PASSWORD = flib.getKeyAndValuePair("password");
-//		
-//																				
-//		driver.get(URL);
-//
-//		// using business logics
-//		LoginVtigerPage login = new LoginVtigerPage(driver);
-//		login.loginIntoVtiger(USERNAME, PASSWORD);
-//
-//		WebDriver_Utility wlib = new WebDriver_Utility();
-//		wlib.maximizeWindow(driver);
-//		wlib.implicitlyWait(driver);
-//	}
-	//=================================================================
+
 	// use for jenkin parameter
 	@BeforeMethod
 	public void bm() throws Throwable {
